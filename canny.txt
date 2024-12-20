@@ -1,0 +1,2 @@
+I believe my efforts to remove all malloc, calloc, and free calls were successful. I was able to compile and run the code without any errors or memory leaks. My approach to replacing any variable that used pointer and memory allocation was 
+to make it an array of size ROWS * COLS, which I defined at the top of the code. 
